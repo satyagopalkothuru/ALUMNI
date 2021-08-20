@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PEC Alumini</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <style>
+        a{
+            text-decoration: none;
+            color: red;
+        }
+        a:hover{
+            color: #F0C504;
+        }
+        hr
+        {
+          color: #F0C504;
+          width: 95%;
+        }
+        .nav-link{
+          padding: 10px;
+        }
+        .dropdown-item:hover{
+          font-weight: bold;
+        }
+        .btn
+        {
+          color: #FFF;
+          width:200px;
+          border: none; 
+          border-radius: 30px; 
+          background: rgb(59, 58, 58); 
+          box-shadow:  10px 10px 0px #caa503,-10px -10px 0px #ffe505;
+        }
+        .btn:hover{
+          color: #F0C504;
+        }
+        .centered {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        h1,h2,h3,h4,h5,h6{
+            color: #3f3d56;
+        }
+    </style>
+</head>
+<body>
+    <header class="sticky-top" style="background-color: #FFF; width: 100%;">
+        <section>
+            <div class="d-flex justify-content-end" style="margin: 10px;">
+                <div class="dropdown text-end">
+                    <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
+                        <img src="images/profile_pic1.svg" alt="profile picture" width="32" height="32" class="rounded-circle">
+                    </a>
+                    <ul class="dropdown-menu text-small" aria-labelledby="dropdownUser1">
+                        <li><a class="dropdown-item" href="#">Dashboard</a></li>
+                        <li><a class="dropdown-item" href="#">Settings</a></li>
+                        <li><a class="dropdown-item" href="#">Profile</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="index.html">Logout</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <nav class="navbar navbar-expand-lg navbar-light" >
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"><img src="images/alumnilogo.svg" alt="Alumni PEC Logo" style="width: 150px;"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown" style="background-color:#F0C504; margin:10px;border-radius: 25px 50px;">
+                    <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="afterlogin_index.html"><b>Home</b></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <b>Connect</b>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="background-color:#F0C504;">
+                        <li><a class="dropdown-item" href="directory.html">Directory</a></li>
+                        <li><a class="dropdown-item" href="mentor.html">Mentor</a></li>
+                        <li><a class="dropdown-item" href="jobs.html">Jobs</a></li>
+                        <li><a class="dropdown-item" href="internships.html">Internships</a></li>
+                        <li><a class="dropdown-item" href="#">Accomodation</a></li>
+                        
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><b>Distinguish Alumni</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><b>Events</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><b>Support</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><b>About US</b></a>
+                    </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <br>
+    <br>
+    <br>
+    <section class="d-flex justify-content-center">
+        <div class="card" style="height: 200px;width: 90%;background-color: #3f3d56;">
+            <div class="centered">
+                <div class="d-flex justify-content-center">
+                    <div class="row g-3">
+                        <div class="col-auto">
+                          <h3 style="color: #F0C504;">Want to offer an Internships...?&nbsp;</h3>
+                        </div> 
+                        &nbsp;
+                        <div class="col-auto">
+                          <button onclick="location.href='offer_internship.html'" class="btn mb-3">Offer Internship</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> 
+    <br>
+    <br>
+    <hr style="margin-left: 5%;">
+    <br>
+    <h1 class="d-flex justify-content-center">Available Trainings</h1>
+    <br>
+    <br>
+    <br>
+    <div class="card text-white " style="padding: 20px;width: 100%;height: 500px; border: none;">
+        <img src="images/not_found.svg" class="card-img centered" alt="search in directory..." style="width: 40%;">
+    </div>
+    <br>
+    <h5 class="d-flex justify-content-center">No Results Found...</h5>
+    <br>
+    <br>
+    <hr>
+    <footer>
+        <div class="d-flex justify-content-center" style="background: url('images/footer_backgroung1.svg');height: 150px;width: 100%;">
+            <p>Copyright @ 2021 Prakasam Engineering College</p>
+        </div>
+    </footer>
+</body>
+</html>
